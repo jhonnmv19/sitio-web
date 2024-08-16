@@ -1,0 +1,41 @@
+<HTml:5>
+    <head class="header">
+        <title>Contacto</title>
+        <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+              <img src="../imagenes/menu.jpg" class="menu-icono" width="150px" alt="menu">
+            </label>
+            <nav class="navbar">
+               <ul>
+                  <li><a href="../index.html">Inicio</a></li>
+                  <li><a href="Servicios.html">Servicio Tecnico</a></li>
+                  <li><a href="Productos.html">Productos</a></li>
+                  <li><a href="#">Contacto</a></li>
+               </ul>
+            </nav>
+        </div>
+    </head>
+
+<body>
+    <div class="contacto container">
+        <h1>Contacto</h1>
+        <form action="enviar_contacto.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</HTml:5>
